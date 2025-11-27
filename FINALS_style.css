@@ -1,0 +1,78 @@
+header .navbar .container-fluid,
+footer .navbar .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin: 5px;
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+
+.cards-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.cards-row .card {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-row .card-img-top {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.info-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.section-divider {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.btn-primary {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+}
+
+.btn-primary:hover {
+    background-color: #222 !important;
+    border-color: #222 !important;
+}
+
+.btn-secondary {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
+}
+
+.btn-secondary:hover {
+    background-color: #f0f0f0 !important;
+    border-color: #000 !important;
+}
+
+.card {
+    margin: 30px;
+}
